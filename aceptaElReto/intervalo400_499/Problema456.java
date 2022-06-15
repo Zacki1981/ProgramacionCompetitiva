@@ -30,7 +30,7 @@ public class Problema456 {
 			cuadraditos = entrada.nextInt();
 			
 			area = alto * ancho;
-			if(area % cuadraditos == 0) {
+			if(cuadraditos % area == 0) {
                 System.out.println(cuadraditos/area);
             } else {
                 System.out.println((cuadraditos/area)+1);
